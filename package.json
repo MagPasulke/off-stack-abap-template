@@ -9,7 +9,7 @@
     "test": "npm run lint && npm run unit"
   },
   "author": "",
-  "license": "Unlicense",
+  "license": "",
   "devDependencies": {
     "@abaplint/cli": "^2.119.23",
     "@abaplint/runtime": "^2.13.26",
