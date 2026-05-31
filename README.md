@@ -2,7 +2,7 @@
 
 This is a template repository to help you getting started with an off-stack ABAP project.
 
-[Creating a Repository from a Tempalte](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+[Creating a Repository from a Template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 
 ## what's in it?
 
