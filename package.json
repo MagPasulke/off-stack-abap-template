@@ -1,6 +1,5 @@
 {
   "name": "abap-off-stack-project",
-  "private": true,
   "version": "0.0.1",
   "description": "Z - My off-stack ABAP project",
   "scripts": {
