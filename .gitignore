@@ -4,17 +4,6 @@
 !.env.example
 .vscode/settings.json
 
-# REST Client / HTTP test env (credentials)
-http-client.private.env.json
-__test/http/http-client.env.json
-
-# ABAP backend specific files
-*.iwsv.xml
-*.iwmo.xml
-*.iwvb.xml
-*.srvb.xml
-*.sush.*
-
 # Artefacts
 node_modules/
 zabapgit.abap
