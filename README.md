@@ -48,11 +48,9 @@ TypeScript scripts in `scripts/` and `.opencode/tools/` for interacting with a r
 
 ### prerequisites
 
-- [Node.js](https://nodejs.org/) (LTS)
-- npm
-- [VS Code](https://code.visualstudio.com/) with the [Standalone ABAP Development](https://marketplace.visualstudio.com/items?itemName=larshp.standalone-abap-development) extension
+- [Node.js](https://nodejs.org/) 
+- [VS Code](https://code.visualstudio.com/) with the [Standalone ABAP Development](https://marketplace.visualstudio.com/items?itemName=larshp.standalone-abap-development) extension. Any other IDE also works, but less convenient.
 - SAP system with [abapGit](https://docs.abapgit.org/) installed (needed to deploy and run on a real system)
-- An IDE with AI agent support that can use skills (e.g., VS Code + GitHub Copilot, opencode) — for AI-assisted development
 
 ### copy this template
 
@@ -75,7 +73,7 @@ Push the root package from SAP once via abapGit so it appears in your repository
 
 ### optional: configure abaplint
 
-Edit `abaplint.json` to adjust rules, naming conventions, and target ABAP version for your project. The repository currently includes the default configuration.  
+Edit `abaplint.json` to adjust rules, naming conventions, and target ABAP version for your project. The repository currently includes a reduced starting configuration.
 [abaplint rules reference](https://rules.abaplint.org/)
 
 ### optional: maintain GH secrets for release-please
@@ -85,7 +83,7 @@ Create a GitHub Personal Access Token (PAT) and add it as a repository secret na
 
 ### optional: maintain .env for SAP system connection
 
-Copy `.env.example` to `.env` and fill in your SAP ADT connection details. This enables the ADT scripts for remote abapGit pull and unit test execution.
+Copy `.env.example` to `.env` and fill in your SAP ADT connection details. This enables the ADT scripts for remote abapGit pull and unit test execution. These scripts can be used to sync your sap dev system without leaving the IDE. Or to be included in a pipeline.
 
 ```
 SAP_ADT_URL=https://your-sap-system:port
